@@ -1,0 +1,18 @@
+{
+  "name": "fragmetrics",
+  "private": true,
+  "workspaces": [
+    "packages/fragmetrics-backend",
+    "packages/fragmetrics"
+  ],
+  "scripts": {
+    "start:back": "yarn workspace fragmetrics-backend start",
+    "start:front": "yarn workspace fragmetrics start",
+    "start:all": "concurrently \"yarn start:back\" \"yarn start:front\"",
+    "build:front": "yarn workspace fragmetrics build"
+  },
+  "dependencies": {
+    "concurrently": "^9.0.1",
+    "eslint": "^9.12.0"
+  }
+}
