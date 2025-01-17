@@ -1,2 +1,8 @@
 /* Base .*/
 @import 'css/global';
+
+/* Typos/Fonts .*/
+@import 'css/typography';
+
+/* Sidebar .*/
+@import 'css/sidebar';

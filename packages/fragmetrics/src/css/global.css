@@ -1,7 +1,57 @@
+/* Base Styling */
+
 :root {
-    margin: 0 auto;
-    text-align: center;
-    color: #fff;
-    text-align: center;
-    background: rgba(15, 15, 15, 0.95);
+    --bg-color: #070707;
+    --sidebar-width: 60px;
+    --sidebar-color: #141414;
+    --sidebar-foreground-color: #101010;
+    --text-color: #FFF;
+    --sidebar-button-color: #161616;
+    --rounded: 12px;
+    --sidebar-button-shadow: 3px 3px 6px #0d0d0d,
+    -3px -3px 6px #1f1f1f;
+    --sidebar-elements-inner-shadow: inset 3px 3px 6px #090909,
+    inset -3px -3px 6px #171717;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    border-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    grid-template-rows: 100vh;
+    overflow: hidden;
+    background-color: var(--bg-color);
+}
+
+.grid-container .dashboard-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    border-radius: var(--rounded);
+    overflow-y: auto;
+    background-color: var(--sidebar-color);
+    margin: 20px;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.dashboard-main {
+    padding: 20px 0;
+    flex-grow: 1;
+    overflow-y: auto;
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+}
+
+/* Other things */

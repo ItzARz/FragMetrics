@@ -1,14 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Sidebar } from '../components/ui/sidebar';
 
 const Home = () => {
     const handleLogin = () => {
         window.location.href = 'https://fragmetrics.itzarz.dev/api/auth';
     };
+
     return (
         <>
-        <div>
-            <h1>Welcome to the CS2 Stats App</h1>
-            <button onClick={handleLogin}>Login with Steam</button>
+        <div className="grid-container">
+            <Sidebar />
+            <main className="dashboard-content">
+                <header className="dashboard-header">
+                    <h1>CS2 Stats App</h1>
+                    <button onClick={handleLogin}>Log In</button>
+                </header>
+
+                <section className="dashboard-main">
+                    <p>Welcome to your dashboard!</p>
+                </section>
+            </main>
         </div>
         </>
     );
