@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Sidebar } from '../components/ui/sidebar';
 
-const Home = () => {
+const Dashboard = () => {
     const handleLogin = () => {
         window.location.href = 'https://fragmetrics.itzarz.dev/api/auth';
     };
@@ -25,4 +25,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Dashboard;
