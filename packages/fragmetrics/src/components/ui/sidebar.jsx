@@ -1,4 +1,4 @@
-import { HomeIcon, ChartPieIcon, MapIcon, WrenchIcon } from '@heroicons/react/24/solid'
+import { HomeIcon, ChartPieIcon, MapIcon, WrenchIcon, ArrowRightEndOnRectangleIcon as LogoutIcon  } from '@heroicons/react/24/solid'
 
 export const Sidebar = () => {
     return (
@@ -32,9 +32,9 @@ export const Sidebar = () => {
                     </ul>
                 </nav>
                 <footer className="sidebar-footer">
-                    <div className="sidebar-profile">
-                        <img src="./assets/profile-picture.jpg" alt="Profile Photo"  />
-                    </div>
+                    <a href="/logout">
+                        <LogoutIcon className="sidebar-menu-icon"/>
+                    </a>
                 </footer>
             </aside>
             </>
