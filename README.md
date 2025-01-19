@@ -50,7 +50,6 @@ All rights reserved.
 This code is the intellectual property of Albert Efrain Rojas Guilarte, also known as ARz.
 Its use, reproduction, modification, or distribution is strictly prohibited without prior written consent from the author.
 
-For licensing inquiries or additional information, please contact the author:
-business@itzarz.dev
+For licensing inquiries or additional information, please contact me: business@itzarz.dev
 
 Fragmetrics is a registered mark owned by ARz, which in turn belongs to Albert Efrain Rojas Guilarte as a personal brand.
