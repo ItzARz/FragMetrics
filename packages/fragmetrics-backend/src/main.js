@@ -3,8 +3,8 @@ const session = require('express-session');
 const passport = require('passport');
 const statsRoutes = require('./routes/statsRoutes');
 const authRoutes = require('./routes/authRoutes');
-require('./config/passport');
 const config = require('./config');
+require('./config/passport');
 
 const app = express();
 
@@ -31,5 +31,5 @@ app.get('/api/auth/logout', function(req, res, next) {
 });
 
 app.listen(config.PORT, () => {
-    console.log(`Server running on port ${config.PORT}`);
+    console.log(`Fragmetrics backend running at port:${config.PORT}`);
 });
