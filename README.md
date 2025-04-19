@@ -52,4 +52,4 @@ Its use, reproduction, modification, or distribution is strictly prohibited with
 
 For licensing inquiries or additional information, please contact me: business@itzarz.dev
 
-Fragmetrics is a mark by ARz, which in turn belongs to Albert Efrain Rojas Guilarte as a personal brand.
+Fragmetrics is a mark by ARz, which in turn belongs to Albert Rojas as a personal brand.
