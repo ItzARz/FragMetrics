@@ -47,7 +47,7 @@ Contributions are welcome! Feel free to open issues or submit pull requests to i
 © 2025 Albert Rojas & ARz.
 All rights reserved.
 
-This code is the intellectual property of Albert Efrain Rojas Guilarte, also known as ARz.
+This code is the intellectual property of Albert Rojas, also known as ARz.
 Its use, reproduction, modification, or distribution is strictly prohibited without prior written consent from the author.
 
 For licensing inquiries or additional information, please contact me: business@itzarz.dev
